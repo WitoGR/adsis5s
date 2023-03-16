@@ -1,4 +1,3 @@
-
 header {
   padding: 20px;
 }
@@ -47,6 +46,4 @@ button#snapshot {
 
 video {
   object-fit: cover;
-  width: 50%;
-  height: 50%;
 }

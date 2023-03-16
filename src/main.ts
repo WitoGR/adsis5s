@@ -1,10 +1,11 @@
-import maskForm from './forms/cep.html?raw'
-import {cep} from './forms/cep'
+import maskForm from './forms/atividade/atividade.html?raw'
+import {atividade} from './forms/atividade/atividade'
 import './style.scss'
+
 
 const app = document.querySelector('#app')
 
 if (app) {
   app.innerHTML = maskForm
-  cep()
+  atividade()
 }
